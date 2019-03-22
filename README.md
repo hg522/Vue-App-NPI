@@ -1,4 +1,9 @@
-# innovation-node
+# Ticketing System in Vue.js
+```
+This is a web applicatiion creating using Vue.js where
+user has to login to get access to a homepage where data of the 
+ticketing system is shown.
+```
 
 ## Project setup
 ```
@@ -15,15 +20,7 @@ npm run serve
 npm run build
 ```
 
-### Run your tests
-```
-npm run test
-```
 
-### Lints and fixes files
-```
-npm run lint
-```
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
