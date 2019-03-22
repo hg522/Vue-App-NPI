@@ -1,7 +1,6 @@
 # Ticketing System in Vue.js
 ```
-This is a web applicatiion creating using Vue.js where
-user has to login to get access to a homepage where data of the 
+This is a web applicatiion creating using Vue.js where user has to login to get access to a homepage where data of the 
 ticketing system is shown.
 ```
 
