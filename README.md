@@ -23,8 +23,4 @@ accessed in the following two ways:
 
 # Documentation and Process
 
-The documentation of how this project was achieved and the process followed has been provided in the **documentation.pdf** in the repository.
-
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+The documentation of how this project was achieved and the process followed has been provided in the **Documentation.pdf** in the repository.
