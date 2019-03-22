@@ -21,6 +21,10 @@ accessed in the following two ways:
 1. Opening the **dist/index.html** file in the browser or
 2. Running the **npm run serve** command that hosts the application on http://localhost:8080
 
+# Documentation and Process
+
+The documentation of how this project was achieved and the process followed has been provided in the **documentation.pdf** in the repository.
+
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
