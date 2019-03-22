@@ -1,17 +1,26 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <router-view @validUser="setValidUser"></router-view>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
 export default {
   name: 'app',
-  components: {
-    HelloWorld
+  data() {
+    return {
+      validUser:false
+    }
+  },
+  mounted() {
+    if(!this.validUser) {
+      this.$router.replace({ name: "login" });
+    }
+  },
+  methods:{
+      setValidUser(valid){
+          this.validUser = valid;
+      }
   }
 }
 </script>
@@ -23,6 +32,8 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  height:100%;
+  width:100%;
+  /*margin-top: 60px;*/
 }
 </style>
