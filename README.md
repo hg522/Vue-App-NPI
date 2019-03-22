@@ -18,7 +18,7 @@ Run the following Commands:
 Once the project is build, the output files are created in the **dist** folder and the application can be 
 accessed in the following two ways:
 
-1. Opening the **dist**/index.html** file in the browser or
+1. Opening the **dist/index.html** file in the browser or
 2. Running the **npm run serve** command that hosts the application on http://localhost:8080
 
 ```
