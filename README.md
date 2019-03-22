@@ -21,5 +21,7 @@ The application can accessed in the following two ways:
 1. Opening the **dist/index.html** file in the browser or
 2. Running the **npm run serve** command that hosts the application on http://localhost:8080
 
+```
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
