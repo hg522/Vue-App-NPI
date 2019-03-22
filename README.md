@@ -1,11 +1,11 @@
 # Ticketing System in Vue.js
-```
+
 This is a web applicatiion created using Vue.js where user has to login to get access to a homepage where data of
 a ticketing system is shown.
-```
+
 
 # Running the Application
-```
+
 1. Clone the Repository
 
 Run the following Commands:
@@ -21,7 +21,6 @@ accessed in the following two ways:
 1. Opening the **dist/index.html** file in the browser or
 2. Running the **npm run serve** command that hosts the application on http://localhost:8080
 
-```
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
