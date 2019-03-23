@@ -15,7 +15,7 @@
           Incorrect Username or Password!
         </div>
         <div class="pb-3 pt-2"></div>
-        <button class="btn btn-lg btn-dark btn-block rounded log" v-on:click="login()" type="submit">Login</button>
+        <button class="btn btn-lg btn-dark btn-block rounded log" v-on:click.stop.prevent="login()" type="submit">Login</button>
         <p class="mt-4 mb-3 text-muted">© North Park Innovations</p>
       </form>
     </div>
