@@ -5,9 +5,9 @@
         <div>
           <img src = "../assets/North-Park-logo.png" class="rounded-circle" height="35px" width="35px" alt="">
         </div>
-        <div class="d-flex align-items-center justify-content-end">
+        <div class="d-flex align-items-center justify-content-end cursor" v-on:click="logout()">
           <h6 class="m-0">Sign Out</h6>
-          <button type="button" v-on:click="logout()" title="Sign out" class="btn btn-default p-0 m-0 pl-2" aria-label="Right Align">
+          <button type="button" title="Sign out" class="btn btn-default p-0 m-0 pl-2" aria-label="Right Align">
             <font-awesome-icon icon="power-off" :style="{ color: 'white' }"/>
           </button>
         </div>
@@ -447,5 +447,8 @@
   }
   .font-14{
     font-size:14px;
+  }
+  .cursor{
+    cursor:pointer;
   }
 </style>
