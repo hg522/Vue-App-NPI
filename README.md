@@ -23,4 +23,4 @@ accessed in the following two ways:
 
 # Documentation and Process
 
-The documentation of how this project was achieved and the process followed has been provided in the **Documentation.pdf** in the repository.
+The documentation of how this project was achieved, numbers of hours taken and the explanation has been provided in the **Documentation.pdf** in the repository.
