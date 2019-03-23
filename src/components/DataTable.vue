@@ -5,7 +5,12 @@
                 <div class="row search-page-bar">
                     <div class="col-sm-4">
                         <form id="search" class="p-2" style="width:auto">
-                            <input type="text" name="search" class="form-control table-search rounded-pill" v-model="searchQuery" required="" autofocus="" placeholder="   Enter to search table">
+                            <div class="input-group">
+                                <input type="text" name="search" class="form-control table-search pl-2" v-model="searchQuery" required="" autocomplete="off" placeholder="Enter to search table">
+                                <div class="input-group-append">
+                                    <span class="input-group-text search-icon"><font-awesome-icon icon="search" class=""/></span>
+                                </div>
+                            </div>
                         </form>
                     </div>
                     <div class="col-sm-8 d-flex align-items-center justify-content-end">
@@ -222,15 +227,18 @@
         max-width: 100% !important;
     }
     .table-search{
-        background-color: #fff !important;
-        border-width: 1px;
+        background-color: #2c2f33 !important;
+        color:#fff;
+        border: 1px solid transparent;
+        /*border-width: 1px;
         border-style: inset;
-        border-color: #fff;
+        border-color: #fff;*/
         height: 30px;
         /*width:350px;*/
         max-width:350px;
         /*border-image: initial;*/
     }
+
     table {
         border: 2px solid #2c2f33;
         border-radius: 2px;
@@ -333,4 +341,17 @@
         border: 1px solid #141618;
     }
 
+    input[type=text]:focus {
+        background-color: #2c2f33;
+    }
+    input[type=text]::selection{
+        background-color: #2c2f33;
+    }
+
+    .search-icon{
+        background-color: #2c2f33 !important;
+        border:None;
+        height: 1.8rem;
+        margin-top: 0.05rem;
+    }
 </style>
